@@ -5,27 +5,30 @@
         <meta charset="utf-8"/>
         <title>Reservia FR</title>
         <!-- fontawesome -->
-        <link href="fontawesome/css/all.css" rel="stylesheet"> <!--load solid min style -->
+        <link href="fontawesome/css/all.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
     </head>
 
     <body>
         <header>
             <!-- Header -->
                 <!-- Logo -->
-                <a href="index.html"><img src="images/logo/Reservia.svg" alt="logo de Reservia"></a>
+                <a href="index.html"><img id="logo" src="images/logo/Reservia.svg" alt="logo de Reservia"></a>
             <nav>
                 <!-- Navigation -->
-                <ul>
-                    <li>
-                        <a href="#hebergement">Hébergements</a>
+                <ol class="lien">
+                    <li >
+                        <a href="#hebergement" id="hebergement">Hébergements</a>
+                    </li>
+                    <li >
+                        <a href="#activites" id="activites">Activités</a>
                     </li>
                     <li>
-                        <a href="#activites">Activités</a>
+                        <!-- Inscription -->
+                        <a href="index.html" id="register">S'inscrire</a>
                     </li>
-                </ul>
+                </ol>
             </nav>
-                <!-- Inscription -->
-                <a href="index.html">S'inscrire</a>
         </header>
 
         <h1>
@@ -36,36 +39,25 @@
             En plein centre ville ou en pleine nature
         </p>
         <!-- Recherche -->
-        <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
-        <input type="search" id="site-search" name="q"
-                placeholder="Marseille, France"
-                aria-label="recherche par lieu">
+        <div id="search">
+            <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
+            <input type="search" id="site-search" name="q"
+                    placeholder="Marseille, France"
+                    aria-label="recherche par lieu">
 
-        <a href="index.html"><button>Rechercher</button></a>
-
+            <a href="index.html"><button>Rechercher</button></a>
+        </div>
         <!-- Filtres -->
-        <div>
-            <h1>
-                Filtres
-            </h1>
-            <ul>
-                <li>
-                    <i class="fas fa-money-bill-wave"></i>
-                    Economique
-                </li>
-                <li>
-                    <i class="fas fa-child"></i>
-                    Familial
-                </li>
-                <li>
-                    <i class="fas fa-heart"></i>
-                    Romantique
-                </li>
-                <li>
-                    <i class="fas fa-dog"></i>
-                    Animaux autorisés
-                </li>
-            </ul>
+        <div id="filtres">
+            Filtres
+            <div class="filtre"><i class="fas fa-money-bill-wave"></i>
+            Economique</div>
+            <div class="filtre"><i class="fas fa-child"></i>
+            Familial</div>
+            <div class="filtre"><i class="fas fa-heart"></i>
+            Romantique</div>
+            <div class="filtre"><i class="fas fa-dog"></i>
+            Animaux autorisés</div>
         </div>
         <!-- Info texte -->
         <p>
