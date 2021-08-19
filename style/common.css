@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('../Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+html {
+    font-family: 'raleway';
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    margin: 0 auto;
+    max-width: 1520px;
+}
+
+
+/*** Téléphone ***/
+
+@media only screen and (max-width: 600px) {
+    .body {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+}

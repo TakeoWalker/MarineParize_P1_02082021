@@ -1,0 +1,53 @@
+.popmore {
+    background-color: #F2F2F2;
+    max-width: 480px;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.poptitre {
+    display: flex;
+    margin-left: 17px;
+}
+
+#popicon {
+    margin: 26px 30px 0 95px;
+}
+
+.pop a {
+    display: flex;
+    min-width: 250px;
+    height: 145px;
+    margin: 3px 30px 19px 17px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.popmore img {
+    display: block;
+    width: 138px;
+    height: 153px;
+    object-fit: cover;
+}
+
+.popimg {
+    overflow: hidden;
+    min-width: 135px;
+    height: 145px;
+    border-radius: 20px 0 0 20px;
+}
+
+.poptext {
+    padding-left: 15px;
+}
+
+.poptext p {
+    margin-bottom: 7px;
+}
+
+.popsstitre {
+    font-size: smaller;
+    margin: 0 0px 32px 0px;
+}

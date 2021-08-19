@@ -1,0 +1,65 @@
+.conteneraccommodation {
+    display: flex;
+    max-width: 1520px;
+}
+
+.conteneraccommodation a {
+    text-decoration: none;
+    color: black;
+}
+
+.accompart1 {
+    margin: 0 50px;
+    padding: 30px 0 0 40px;
+    width: 80%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+.accomarticle {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+    justify-content: space-evenly;
+}
+
+#accommodation {
+    margin: 10px;
+    padding-left: 5px;
+    font-size: x-large;
+}
+
+.accom {
+    height: 190px;
+    line-height: 7px;
+    margin: 12px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 1em 1px #D6D6D6;
+}
+
+.accomimg {
+    overflow: hidden;
+    height: 115px;
+    border-radius: 20px 20px 0 0;
+}
+
+.accompart1 img {
+    display: block;
+    width: 300px;
+    height: 112px;
+    object-fit: cover;
+}
+
+.accom p,
+.accom .stars {
+    padding-left: 10px;
+}
+
+.more {
+    margin: 10px;
+    padding-left: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
