@@ -17,7 +17,7 @@ nav {
 .navsslogo {
     display: flex;
     justify-content: flex-end;
-    padding: 50px 20px 0 20px;
+    padding: 50px 50px 0 20px;
     text-decoration: none;
     color: #0065FC;
 }
@@ -72,7 +72,7 @@ nav {
     #logo {
         display: flex;
         margin-top: 25px;
-        margin-left: 20%;
+        margin-left: 15%;
     }
     #navaccommodations {
         grid-column-start: 1;
@@ -92,6 +92,10 @@ nav {
         padding: 25px;
     }
     #navactivities:hover {
+        color: unset;
+        border-top: unset;
+    }
+    #navactivities:active {
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
         border-top: unset;
@@ -102,6 +106,6 @@ nav {
         grid-area: unset;
         justify-content: right;
         padding-right: 15%;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 }

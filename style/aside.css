@@ -51,3 +51,95 @@
     font-size: smaller;
     margin: 0 0px 32px 0px;
 }
+
+
+/*** 
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+    .popmore {
+        max-width: unset;
+        margin-right: unset;
+    }
+    .poptitre {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: unset;
+        margin-right: unset;
+    }
+    .poparticle {
+        display: flex;
+        flex-direction: row;
+    }
+    .pop a {
+        margin: 3px 0 19px 0;
+        max-width: 335px;
+        padding-right: 2%;
+    }
+    .poptitre {
+        margin-left: 26px;
+        ;
+    }
+    #popicon {
+        margin-left: 87px;
+        ;
+    }
+}***/
+
+
+/*** Phone ***/
+
+@media only screen and (max-width: 600px) and (min-width: 427px) {
+    .popmore {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F2F2F2;
+        max-width: unset;
+        width: 100%;
+        margin-right: unset;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .pop a {
+        margin: 3px 0 19px 0;
+        max-width: 335px;
+        padding-right: 2%;
+    }
+    .poptitre {
+        margin-left: 26px;
+        ;
+    }
+    #popicon {
+        margin-left: 87px;
+        ;
+    }
+}
+
+@media only screen and (max-width: 427px) {
+    .popmore {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F2F2F2;
+        max-width: unset;
+        width: 100%;
+        margin-right: unset;
+        padding: unset;
+        border-radius: unset;
+    }
+    .pop a {
+        margin: 3px 0 19px 0;
+        max-width: 335px;
+        padding-right: 2%;
+    }
+    #popicon {
+        margin: unset;
+        position: relative;
+        top: 26px;
+        left: 3em;
+    }
+    .poptitre {
+        width: 360px;
+        margin-left: 20%;
+    }
+}

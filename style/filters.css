@@ -27,7 +27,7 @@
     align-items: center;
     height: 42px;
     margin: 10px;
-    padding-right: 20px;
+    padding-right: 30px;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
 }
@@ -50,3 +50,31 @@
 
 
 /*** Phone ***/
+
+@media only screen and (max-width: 600px) {
+    #filters {
+        margin-bottom: 30px;
+        margin-left: 6%;
+    }
+    #filters h2 {
+        display: flex;
+    }
+    #filters h3 {
+        font-size: medium;
+    }
+    #filters div {
+        margin-right: 5px;
+    }
+    #filtereco {
+        padding-right: 13px;
+    }
+    .filter:hover {
+        font-style: unset;
+        background-color: unset;
+    }
+    .filter:active {
+        font-style: italic;
+        background-color: #DEEBFF;
+        border: 2px solid #D9D9D9;
+    }
+}
