@@ -1,6 +1,5 @@
 .popmore {
     background-color: #F2F2F2;
-    max-width: 480px;
     margin-right: 50px;
     padding: 20px;
     border-radius: 20px;
@@ -53,18 +52,19 @@
 }
 
 
-/*** 
-@media only screen and (max-width: 1024px) and (min-width: 600px) {
+/**** Tablet ****/
+
+@media only screen and (max-width: 1320px) and (min-width: 990px) {
     .popmore {
         max-width: unset;
         margin-right: unset;
     }
     .poptitre {
         display: flex;
-        align-items: center;
         width: 100%;
         max-width: unset;
         margin-right: unset;
+        justify-content: space-between;
     }
     .poparticle {
         display: flex;
@@ -75,20 +75,19 @@
         max-width: 335px;
         padding-right: 2%;
     }
-    .poptitre {
-        margin-left: 26px;
-        ;
-    }
     #popicon {
         margin-left: 87px;
         ;
     }
-}***/
+    .pop {
+        margin: 0 5px;
+    }
+}
 
 
 /*** Phone ***/
 
-@media only screen and (max-width: 600px) and (min-width: 427px) {
+@media only screen and (max-width: 990px) and (min-width: 427px) {
     .popmore {
         display: flex;
         flex-direction: column;
