@@ -5,6 +5,7 @@
 
 html {
     font-family: 'raleway';
+    --primary-color: #0065FC;
 }
 
 html,
@@ -13,7 +14,7 @@ body {
     padding: 0;
 }
 
-.body {
+main {
     margin: 0 auto;
     max-width: 2000px;
 }
@@ -22,7 +23,7 @@ body {
 /*** Téléphone ***/
 
 @media only screen and (max-width: 600px) {
-    .body {
+    main {
         margin: 0 auto;
         max-width: 600px;
     }

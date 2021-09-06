@@ -19,7 +19,7 @@
 .filtericon i {
     margin-right: auto;
     margin-left: auto;
-    color: #0065FC;
+    color: var(--primary-color);
 }
 
 .filter {
@@ -64,9 +64,6 @@
     }
     #filters div {
         margin-right: 5px;
-    }
-    #filtereco {
-        padding-right: 13px;
     }
     .filter:hover {
         font-style: unset;

@@ -19,12 +19,12 @@ nav {
     justify-content: flex-end;
     padding: 50px 50px 0 20px;
     text-decoration: none;
-    color: #0065FC;
+    color: var(--primary-color);
 }
 
 #navaccommodations {
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
+    color: var(--primary-color);
+    border-top: 3px solid var(--primary-color);
 }
 
 #navactivities {
@@ -32,8 +32,8 @@ nav {
 }
 
 #navactivities:hover {
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
+    color: var(--primary-color);
+    border-top: 3px solid var(--primary-color);
 }
 
 #navregister {
@@ -78,8 +78,8 @@ nav {
         grid-column-start: 1;
         grid-row-start: 2;
         justify-content: center;
-        color: #0065FC;
-        border-bottom: 3px solid #0065FC;
+        color: var(--primary-color);
+        border-bottom: 3px solid var(--primary-color);
         padding: 25px;
         border-top: unset;
     }
@@ -96,8 +96,8 @@ nav {
         border-top: unset;
     }
     #navactivities:active {
-        color: #0065FC;
-        border-bottom: 3px solid #0065FC;
+        color: var(--primary-color);
+        border-bottom: 3px solid var(--primary-color);
         border-top: unset;
     }
     #navregister {
