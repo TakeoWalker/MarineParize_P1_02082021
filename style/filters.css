@@ -4,7 +4,7 @@
     font-size: large;
 }
 
-.filtericon {
+.filter-icon {
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -16,7 +16,7 @@
     background-color: #DEEBFF;
 }
 
-.filtericon i {
+.filter-icon i {
     margin-right: auto;
     margin-left: auto;
     color: var(--primary-color);

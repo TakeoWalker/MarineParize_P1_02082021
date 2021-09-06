@@ -14,7 +14,7 @@ nav {
     justify-content: flex-end;
 }
 
-.navsslogo {
+.nav-without-logo {
     display: flex;
     justify-content: flex-end;
     padding: 50px 50px 0 20px;
@@ -22,21 +22,21 @@ nav {
     color: var(--primary-color);
 }
 
-#navaccommodations {
+#nav-accommodations {
     color: var(--primary-color);
     border-top: 3px solid var(--primary-color);
 }
 
-#navactivities {
+#nav-activities {
     color: black;
 }
 
-#navactivities:hover {
+#nav-activities:hover {
     color: var(--primary-color);
     border-top: 3px solid var(--primary-color);
 }
 
-#navregister {
+#nav-register {
     font-weight: bold;
 }
 
@@ -61,7 +61,7 @@ nav {
         margin: 0;
         padding: 0;
     }
-    .navsslogo {
+    .nav-without-logo {
         margin-right: 0;
     }
     .logo {
@@ -74,7 +74,7 @@ nav {
         margin-top: 25px;
         margin-left: 15%;
     }
-    #navaccommodations {
+    #nav-accommodations {
         grid-column-start: 1;
         grid-row-start: 2;
         justify-content: center;
@@ -83,7 +83,7 @@ nav {
         padding: 25px;
         border-top: unset;
     }
-    #navactivities {
+    #nav-activities {
         grid-column-start: 2;
         grid-row-start: 2;
         justify-content: center;
@@ -91,16 +91,16 @@ nav {
         border-bottom: 3px solid #F2F2F2;
         padding: 25px;
     }
-    #navactivities:hover {
+    #nav-activities:hover {
         color: unset;
         border-top: unset;
     }
-    #navactivities:active {
+    #nav-activities:active {
         color: var(--primary-color);
         border-bottom: 3px solid var(--primary-color);
         border-top: unset;
     }
-    #navregister {
+    #nav-register {
         grid-column-start: 2;
         grid-row-start: 1;
         grid-area: unset;

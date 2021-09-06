@@ -1,13 +1,13 @@
-.conteneraccommodation {
+.contener-accommodations-aside {
     display: flex;
 }
 
-.conteneraccommodation a {
+.contener-accommodations-aside a {
     text-decoration: none;
     color: black;
 }
 
-.accompart1 {
+.contener-accommodations {
     margin: 0 50px;
     padding: 30px 0 0 40px;
     width: 65%;
@@ -15,20 +15,20 @@
     border-radius: 20px;
 }
 
-.accomarticle {
+#accommodations {
+    margin: 10px;
+    padding-left: 5px;
+    font-size: x-large;
+}
+
+.accommodations-article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 250px 250px;
     justify-content: space-evenly;
 }
 
-#accommodation {
-    margin: 10px;
-    padding-left: 5px;
-    font-size: x-large;
-}
-
-.accom {
+.accommodation {
     line-height: 7px;
     margin: 12px;
     padding: 5px;
@@ -37,13 +37,13 @@
     box-shadow: 0 0 1em 1px #D6D6D6;
 }
 
-.accomimg {
+.accommodation-image {
     overflow: hidden;
     height: 135px;
     border-radius: 20px 20px 0 0;
 }
 
-.accompart1 img {
+.accommodation-image img {
     display: block;
     width: 100%;
     height: 100%;
@@ -51,8 +51,8 @@
     object-fit: cover;
 }
 
-.accom p,
-.accom .stars {
+.accommodation p,
+.accommodation .stars {
     padding-left: 10px;
 }
 
@@ -67,24 +67,24 @@
 /*** Tablet ***/
 
 @media only screen and (max-width: 1320px) and (min-width: 990px) {
-    .conteneraccommodation {
+    .contener-accommodations-aside {
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
-    .accompart1 {
+    .contener-accommodations {
         background-color: unset;
         padding: 10px 0;
         width: 90%;
         margin: unset;
     }
-    .accomarticle {
+    #accommodations {
+        margin-left: 17px;
+    }
+    .accommodations-article {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 250px 250px;
         justify-content: space-evenly;
-    }
-    #accommodations {
-        margin-left: 17px;
     }
 }
 
@@ -92,26 +92,26 @@
 /*** Phone ***/
 
 @media only screen and (max-width: 990px) and (min-width: 427px) {
-    .conteneraccommodation {
+    .contener-accommodations-aside {
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
-    .accomarticle {
-        display: grid;
-        grid-template-columns: 300px;
-        grid-template-rows: repeat(6, 1fr);
-        justify-content: center;
-    }
-    .accompart1 {
+    .contener-accommodations {
         margin: 0 0 0 6%;
         background-color: unset;
         border-radius: 20px;
         padding: unset;
     }
-    .accom {
+    .accommodations-article {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(6, 1fr);
+        justify-content: center;
+    }
+    .accommodation {
         margin: 0 0 20px 25px;
     }
-    .accompart1 img {
+    .accommodation-image img {
         min-width: 279px;
         max-width: 335px;
         height: 100px;
@@ -120,26 +120,26 @@
 }
 
 @media only screen and (max-width: 427px) {
-    .conteneraccommodation {
+    .contener-accommodations-aside {
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
-    .accomarticle {
+    .accommodations-article {
         display: grid;
         grid-template-columns: 300px;
         grid-template-rows: repeat(6, 1fr);
         justify-content: center;
     }
-    .accompart1 {
+    .contener-accommodations {
         margin: 0 0 0 6%;
         background-color: unset;
         border-radius: 20px;
         padding: unset;
     }
-    .accom {
+    .accommodation {
         margin: 0 0 20px 25px;
     }
-    .accompart1 img {
+    .accommodation-image img {
         min-width: 279px;
         max-width: 335px;
         height: 100px;
