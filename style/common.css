@@ -6,6 +6,7 @@
 html {
     font-family: 'raleway';
     --primary-color: #0065FC;
+    overflow-wrap: break-word;
 }
 
 html,
@@ -19,10 +20,14 @@ main {
     max-width: 2000px;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 /*** Téléphone ***/
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     main {
         margin: 0 auto;
         max-width: 600px;

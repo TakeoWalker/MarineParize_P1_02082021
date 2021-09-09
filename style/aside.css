@@ -7,11 +7,8 @@
 
 .aside-title {
     display: flex;
-    margin-left: 17px;
-}
-
-#aside-title-icon {
-    margin: 26px 30px 0 95px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .aside-article a {
@@ -54,14 +51,14 @@
 
 /**** Tablet ****/
 
-@media only screen and (max-width: 1320px) and (min-width: 990px) {
+@media screen and (max-width: 1320px) and (min-width: 990px) {
     .contener-aside {
         max-width: unset;
         margin-right: unset;
     }
     .aside-title {
         display: flex;
-        width: 100%;
+        /*width: 100%;*/
         max-width: unset;
         margin-right: unset;
         justify-content: space-between;
@@ -72,7 +69,7 @@
     }
     .aside-article a {
         margin: 3px 0 19px 0;
-        max-width: 335px;
+        /*max-width: 335px;*/
         padding-right: 2%;
     }
     #aside-title-icon {
@@ -86,14 +83,12 @@
 
 /*** Phone ***/
 
-@media only screen and (max-width: 990px) and (min-width: 427px) {
+@media screen and (max-width: 990px) {
     .contener-aside {
         display: flex;
         flex-direction: column;
-        align-items: center;
         background-color: #F2F2F2;
         max-width: unset;
-        width: 100%;
         margin-right: unset;
         padding: 20px;
         border-radius: 20px;
@@ -102,40 +97,5 @@
         margin: 3px 0 19px 0;
         max-width: 335px;
         padding-right: 2%;
-    }
-    .aside-title {
-        margin-left: 26px;
-    }
-    #aside-title-icon {
-        margin-left: 87px;
-    }
-}
-
-@media only screen and (max-width: 427px) {
-    .contener-aside {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #F2F2F2;
-        max-width: unset;
-        width: 100%;
-        margin-right: unset;
-        padding: unset;
-        border-radius: unset;
-    }
-    .aside-article a {
-        margin: 3px 0 19px 0;
-        max-width: 335px;
-        padding-right: 2%;
-    }
-    #aside-title-icon {
-        margin: unset;
-        position: relative;
-        top: 26px;
-        left: 3em;
-    }
-    .aside-title {
-        width: 360px;
-        margin-left: 20%;
     }
 }
