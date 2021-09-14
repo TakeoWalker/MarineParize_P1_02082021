@@ -89,7 +89,7 @@ input::placeholder {
 
 /****** Téléphone ******/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 860px) {
     .title {
         margin: 20px 6% 30px 6%;
     }

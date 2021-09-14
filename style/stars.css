@@ -1,5 +1,5 @@
 .stars {
-    display: inline-flex;
+    display: flex;
 }
 
 .blue-stars {
@@ -12,6 +12,6 @@
 }
 
 .aside-stars {
-    display: inline-flex;
-    margin-top: 30px;
+    display: flex;
+    margin-bottom: 6px;
 }

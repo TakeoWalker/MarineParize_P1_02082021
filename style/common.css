@@ -27,9 +27,8 @@ img {
 
 /*** Téléphone ***/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 860px) {
     main {
         margin: 0 auto;
-        max-width: 600px;
     }
 }
