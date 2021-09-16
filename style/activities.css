@@ -9,7 +9,7 @@
 
 .activities-img {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: auto 300px auto 300px;
     grid-template-rows: 200px 200px;
     column-gap: 3%;
     row-gap: 3%;
@@ -44,6 +44,7 @@
 #activities-img3 {
     grid-column-start: 2;
     grid-row-start: 2;
+    margin-top: 50px;
 }
 
 #activities-img4 {
@@ -76,9 +77,75 @@
     height: 140px;
 }
 
+#activities-img3 img {
+    width: 100%;
+    height: 100px;
+    background-color: unset;
+    box-shadow: 0 0 10px 2px #EBEBEB;
+}
+
 .activities-article div {
     margin: 15px;
     font-weight: bolder;
+}
+
+
+/*** Tablet ***/
+
+@media screen and (max-width: 1150px) and (min-width: 860px) {
+    .activities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 2% 80px 2%;
+    }
+    .activities-img {
+        display: grid;
+        grid-template-columns: 335px 335px;
+        grid-template-rows: repeat(3, 200px);
+        column-gap: 5%;
+        row-gap: 1%;
+    }
+    #activities-img1 {
+        grid-column-start: unset;
+        grid-row-start: unset;
+        grid-row-end: unset;
+    }
+    #activities-img2 {
+        grid-column-start: unset;
+        grid-row-start: unset;
+    }
+    #activities-img3 {
+        grid-column-start: unset;
+        grid-row-start: unset;
+        margin-top: unset;
+    }
+    #activities-img4 {
+        grid-column-start: unset;
+        grid-row-start: unset;
+        grid-row-end: unset;
+    }
+    #activities-img5 {
+        grid-column-start: unset;
+        grid-row-start: unset;
+    }
+    #activities-img6 {
+        grid-column-start: unset;
+        grid-row-start: unset;
+    }
+    #activities-img1 img,
+    #activities-img4 img,
+    #activities-img2 img,
+    #activities-img3 img,
+    #activities-img5 img,
+    #activities-img6 img {
+        width: 335px;
+        height: 140px;
+    }
+    #activities {
+        align-self: normal;
+        margin-left: 5%;
+    }
 }
 
 
@@ -110,6 +177,7 @@
     #activities-img3 {
         grid-column-start: unset;
         grid-row-start: unset;
+        margin-top: unset;
     }
     #activities-img4 {
         grid-column-start: unset;
